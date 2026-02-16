@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Fitness | Unleash Your Potential</title>
+    <meta name="description" content="Experience the ultimate fitness journey at Titan Fitness. Modern equipment, world-class trainers, and a community built for strength.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">TITAN<span>FITNESS</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#contact" class="btn-primary">Join Now</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="menuBtn">
+                <i data-lucide="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">BEYOND <span>LIMITS</span></h1>
+                <p class="hero-subtitle">Transform your physique and mindset in our state-of-the-art facility. Your peak performance starts here.</p>
+                <div class="hero-cta">
+                    <a href="#plans" class="btn-primary-large">Start Today</a>
+                    <a href="#classes" class="btn-outline-large">View Classes</a>
+                </div>
+            </div>
+            <div class="hero-status-cards">
+                <div class="status-card glass">
+                    <h3 id="stat-members">500+</h3>
+                    <p>Active Members</p>
+                </div>
+                <div class="status-card glass">
+                    <h3 id="stat-trainers">20+</h3>
+                    <p>Expert Coaches</p>
+                </div>
+                <div class="status-card glass">
+                    <h3 id="stat-hours">24/7</h3>
+                    <p>Access</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features container">
+            <div class="section-header">
+                <h2>Why Choose Titan?</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="dumbbell"></i></div>
+                    <h3>Elite Equipment</h3>
+                    <p>Access to Hammer Strength and Life Fitness premium range machinery.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="user-check"></i></div>
+                    <h3>Master Trainers</h3>
+                    <p>Personalized guidance from certified professionals with 10+ years experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="clock"></i></div>
+                    <h3>Anytime Fitness</h3>
+                    <p>Work out on your schedule with round-the-clock facility access.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="coffee"></i></div>
+                    <h3>Nutrition Bar</h3>
+                    <p>In-house protein shakes and health snacks to fuel your recovery.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="classes" class="classes">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Premium Classes</h2>
+                    <p>Designed for every fitness level and goal.</p>
+                </div>
+                <div class="classes-grid">
+                    <div class="class-card">
+                        <div class="class-img" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop')"></div>
+                        <div class="class-info">
+                            <h3>Power Lifting</h3>
+                            <p>Build explosive strength and master the big three lifts.</p>
+                            <span class="class-tag">Strength</span>
+                        </div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-img" style="background-image: url('https://images.unsplash.com/photo-1518611012118-296156a2f44c?q=80&w=2070&auto=format&fit=crop')"></div>
+                        <div class="class-info">
+                            <h3>HIIT Circuit</h3>
+                            <p>High intensity interval training to maximize calorie burn.</p>
+                            <span class="class-tag">Cardio</span>
+                        </div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-img" style="background-image: url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2120&auto=format&fit=crop')"></div>
+                        <div class="class-info">
+                            <h3>Yoga Zen</h3>
+                            <p>Improve flexibility and find your mental balance.</p>
+                            <span class="class-tag">Mobility</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plans" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Membership Plans</h2>
+                    <div class="accent-line"></div>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <h3>Starter</h3>
+                            <div class="price">$49<span>/mo</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check"></i> Gym Access (8am - 10pm)</li>
+                            <li><i data-lucide="check"></i> Locker Room Access</li>
+                            <li><i data-lucide="check"></i> 1 Personal Training Session</li>
+                            <li class="disabled"><i data-lucide="x"></i> Nutrition Consultation</li>
+                            <li class="disabled"><i data-lucide="x"></i> Guest Passes</li>
+                        </ul>
+                        <a href="#" class="btn-outline">Choose Plan</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="plan-header">
+                            <h3>Pro</h3>
+                            <div class="price">$89<span>/mo</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check"></i> 24/7 Unlimited Access</li>
+                            <li><i data-lucide="check"></i> All Group Classes</li>
+                            <li><i data-lucide="check"></i> 4 Personal Training Sessions</li>
+                            <li><i data-lucide="check"></i> Nutrition Consultation</li>
+                            <li class="disabled"><i data-lucide="x"></i> Guest Passes</li>
+                        </ul>
+                        <a href="#" class="btn-primary">Choose Plan</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <h3>Titan</h3>
+                            <div class="price">$149<span>/mo</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check"></i> 24/7 VIP Access</li>
+                            <li><i data-lucide="check"></i> Private Locker & Sauna</li>
+                            <li><i data-lucide="check"></i> Unlimited PT Sessions</li>
+                            <li><i data-lucide="check"></i> Full Nutrition & Supplement Plan</li>
+                            <li><i data-lucide="check"></i> Unlimited Guest Passes</li>
+                        </ul>
+                        <a href="#" class="btn-outline">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <div class="logo">TITAN<span>FITNESS</span></div>
+                <p>Pushing boundaries since 2012. Join the elite community of fitness enthusiasts.</p>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i data-lucide="map-pin"></i> 123 Power Lane, Iron City</p>
+                <p><i data-lucide="phone"></i> +1 (555) 012-3456</p>
+                <p><i data-lucide="mail"></i> join@titanfitness.com</p>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Get latest workout tips and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address">
+                    <button type="submit"><i data-lucide="send"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Titan Fitness. All Rights Reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
